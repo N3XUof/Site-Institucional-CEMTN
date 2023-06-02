@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" href="./lamapada-removebg-preview.png" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CEMTN - Projetos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: linear-gradient(to right, white, #0056b3);
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+      color: black;
+    }
+
+    h1 {
+      text-align: center;
+      color: #000000;
+      font-size: 36px;
+      margin-bottom: 30px;
+    }
+
+    .project-card {
+      border: 1px solid blac;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+      background-image: linear-gradient(to right, rgb(255, 255, 255), #0056b3);
+      transition: transform 0.3s ease;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .project-title {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #000000;
+    }
+
+    .project-description {
+      color: #000000;
+      margin-bottom: 15px;
+    }
+
+    .project-link {
+      display: block;
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+      border: 2px solid black;
+      background-clip: padding-box;
+      background-color: #000000;
+    }
+
+    .project-link:hover {
+      color: #0056b3;
+    }
+
+    .project-image {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    .project-card figure {
+      margin: 0;
+    }
+
+    .project-card figcaption {
+      font-style: italic;
+      color: #888;
+      margin-top: 5px;
+    }
+
+    .project-social-icons {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 10px;
+    }
+
+    .project-social-icons a {
+      margin-left: 5px;
+      color: #333;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .project-social-icons a:hover {
+      color: #007bff;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="project-card">
+      <center><h2 class="project-title">Projeto Cerrado Vivo</h2></center>
+      <figure>
+        <center><img class="project-image" src="./corr.jpeg" alt="Projeto 1"></center>
+      </figure>
+      <center><p class="project-description">Saída de Campo. Viagem Destinada Ao Estudo Do Cerrado Vivo!</p></center>
+      <center><a class="project-link" href="./saidadecampo.html">Mais informações</a></center>
+    </div>
+    <div class="project-card">
+      <center><h2 class="project-title">Viagem do Terceirão!</h2></center>
+      <figure>
+        <img class="project-image" src="./pire.jpeg" alt="Projeto 2">
+       </figure>
+      <center><p class="project-description">Viagem do Terceiro ano! Viagem Para o Último Ano Dos Alunos do CEMTN em Pirenópolis</p></center>
+      <center><a class="project-link" href="./viagem.html">Mais informações</a></center>
+    </div>
+
+    </div>
+  </div>
+</body>
+</html>
